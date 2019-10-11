@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Suite" duration-ms="94715" started-at="2019-10-11T09:17:20Z" finished-at="2019-10-11T09:18:55Z">
+    <groups>
+    </groups>
+    <test name="Test Cases" duration-ms="94715" started-at="2019-10-11T09:17:20Z" finished-at="2019-10-11T09:18:55Z">
+      <class name="AutomationFramework.testcases.DestinationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:AutomationFramework.testcases.DestinationPageTest@7d9d1a19]" name="setup" is-config="true" duration-ms="11274" started-at="2019-10-11T14:48:41Z" finished-at="2019-10-11T14:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="destinationClick()[pri:1, instance:AutomationFramework.testcases.DestinationPageTest@7d9d1a19]" name="destinationClick" duration-ms="2225" started-at="2019-10-11T14:48:52Z" finished-at="2019-10-11T14:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destinationClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AutomationFramework.testcases.DestinationPageTest@7d9d1a19]" name="teardown" is-config="true" duration-ms="643" started-at="2019-10-11T14:48:54Z" finished-at="2019-10-11T14:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFramework.testcases.DestinationPageTest -->
+      <class name="AutomationFramework.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:AutomationFramework.testcases.LoginPageTest@4883b407]" name="setup" is-config="true" duration-ms="11092" started-at="2019-10-11T14:48:12Z" finished-at="2019-10-11T14:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageValidation(java.lang.String, java.lang.String)[pri:1, instance:AutomationFramework.testcases.LoginPageTest@4883b407]" name="loginPageValidation" duration-ms="2279" started-at="2019-10-11T14:48:23Z" data-provider="gettestdata" finished-at="2019-10-11T14:48:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@def.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AutomationFramework.testcases.LoginPageTest@4883b407]" name="teardown" is-config="true" duration-ms="706" started-at="2019-10-11T14:48:26Z" finished-at="2019-10-11T14:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:AutomationFramework.testcases.LoginPageTest@4883b407]" name="setup" is-config="true" duration-ms="11291" started-at="2019-10-11T14:48:26Z" finished-at="2019-10-11T14:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageValidation(java.lang.String, java.lang.String)[pri:1, instance:AutomationFramework.testcases.LoginPageTest@4883b407]" name="loginPageValidation" duration-ms="2259" started-at="2019-10-11T14:48:38Z" data-provider="gettestdata" finished-at="2019-10-11T14:48:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@ac.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AutomationFramework.testcases.LoginPageTest@4883b407]" name="teardown" is-config="true" duration-ms="690" started-at="2019-10-11T14:48:40Z" finished-at="2019-10-11T14:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFramework.testcases.LoginPageTest -->
+      <class name="AutomationFramework.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:AutomationFramework.testcases.HomePageTest@5622fdf]" name="setup" is-config="true" duration-ms="28375" started-at="2019-10-11T14:47:20Z" finished-at="2019-10-11T14:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="destinationClick()[pri:1, instance:AutomationFramework.testcases.HomePageTest@5622fdf]" name="destinationClick" duration-ms="10835" started-at="2019-10-11T14:47:49Z" finished-at="2019-10-11T14:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destinationClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AutomationFramework.testcases.HomePageTest@5622fdf]" name="teardown" is-config="true" duration-ms="651" started-at="2019-10-11T14:47:59Z" finished-at="2019-10-11T14:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:AutomationFramework.testcases.HomePageTest@5622fdf]" name="setup" is-config="true" duration-ms="11293" started-at="2019-10-11T14:48:00Z" finished-at="2019-10-11T14:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageValidation()[pri:1, instance:AutomationFramework.testcases.HomePageTest@5622fdf]" name="homePageValidation" duration-ms="183" started-at="2019-10-11T14:48:11Z" finished-at="2019-10-11T14:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:AutomationFramework.testcases.HomePageTest@5622fdf]" name="teardown" is-config="true" duration-ms="652" started-at="2019-10-11T14:48:11Z" finished-at="2019-10-11T14:48:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFramework.testcases.HomePageTest -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>

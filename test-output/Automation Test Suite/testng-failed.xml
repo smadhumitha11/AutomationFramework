@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Test Suite]">
+  <listeners>
+    <listener class-name="AutomationFramework.Reports.ExtentReporter"/>
+  </listeners>
+  <test name="Test Cases">
+    <classes>
+      <class name="AutomationFramework.testcases.HomePageTest"/>
+      <class name="AutomationFramework.testcases.LoginPageTest"/>
+      <class name="AutomationFramework.testcases.DestinationPageTest"/>
+    </classes>
+  </test> <!-- Test Cases -->
+</suite> <!-- Failed suite [Automation Test Suite] -->
